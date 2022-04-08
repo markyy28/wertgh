@@ -1,0 +1,224 @@
+#title {
+  background-color: #17d1ac;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+}
+
+/* NavBar */
+h1 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.container-fluid-title {
+  padding: 5% 15%;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: 'Source Sans Pro';
+  font-size: 1.7rem;
+}
+
+.nav-item {
+  padding: 0 8px;
+  font-family: 'Source Sans Pro';
+}
+
+.navbar {
+  padding-bottom: 4rem;
+  padding-top: 0;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+
+/* Download Bottons */
+.download-btn {
+  margin: 5% 3% 5% 0%;
+}
+
+.carousel-image {
+  width: 70%;
+  transform: rotate(10deg);
+  padding-top: 3%;
+  height: 450px;
+   width: 300px;
+
+}
+
+
+/* Features */
+.container-fluid-features {
+  padding: 10% 10%;
+}
+
+h3 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.5rem;
+}
+
+.features-position {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.Icon-color {
+  color: #79e8d2;
+}
+
+.pA {
+  padding-bottom: 0rem;
+  font-family: 'Source Sans Pro';
+  font-size: 0.9rem;
+}
+
+.fa-eye:hover {
+  color: #17d1ac;
+}
+
+.fa-check-circle:hover {
+  color: #17d1ac;
+}
+
+.fa-shield-alt:hover {
+  color: #17d1ac;
+}
+
+/* Testimonial */
+#testimonials{
+  text-align: center;
+  background-color: #79e8d2;
+  color: white;
+}
+
+.testement{
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2.5rem;
+}
+
+.Testimonials-image{
+padding-bottom: 1%;
+padding-top: 1%;
+}
+
+#press{
+  text-align: center;
+  background-color: #79e8d2;
+  padding-bottom: 5%;
+  padding-top: 8%;
+}
+
+.logo{
+padding-bottom: 5%;
+width: 5px;
+height: 5px;
+margin: 5% 5% 5% 5%;
+}
+
+.container-fluid-press{
+  padding: 0% 15%;
+}
+
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+padding: 3% 2%;
+
+}
+
+.Price-tag{
+  color: #17d1ac;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.PriceTitle{
+  font-family: 'Fredoka', sans-serif;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #17d1ac;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.headerT{
+  font-size: 2.5rem;
+  color: white;
+  padding-bottom: 0rem;;
+}
+
+.call-btn{
+  margin:1% 1% 0% 0%;
+}
+
+/* Footer */
+
+#footer{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+
+
+/* Media */
+@media (max-width:1000px){
+
+/* Title */
+
+#title {
+  text-align: center;
+}
+
+.carousel-image {
+transform: rotate(0);
+position: static;
+width: 300px;
+height: 450px;
+}
+
+h1{
+  text-align: center;
+}
+
+.btn{
+  text-align: center;
+}
+
+
+
+
+/* Call to Action */
+.headerT{
+  padding: 5% 5% 5% 5%;
+}
+
+/* Footer */
+#footer{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+
+}
